@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 80%;
+        height: 535px;
+        background-color: #ffffff;
+        margin: 104px auto;
+        padding: 30px;
+    }
+    .dice-img {
+        position: relative;
+        top: -11em;
+        left: 25em;
+    }
+    .record .current {
+        width: 99px;
+        height: 77px;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .container {
+        width: 80%;
+        height: 535px;
+        background-color: #ffffff;
+        margin: 104px auto;
+        padding: 30px;
+    }
+    .dice-img {
+        position: relative;
+        top: -11em;
+        left: 21em;
+    }
+    .record .current {
+        width: 99px;
+        height: 77px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .dice-img {
+        position: relative;
+        top: -12em;
+        left: 14em;
+    }
+}
+@media only screen and (max-width: 414px){
+    .container {
+        width: 94%;
+        height: 610px;
+        background-color: #ffffff;
+        margin: 50px auto;
+        padding: 5px;
+    }
+    .dice-img {
+        position: relative;
+        top: -3em;
+        left: 9em;
+    }
+    .record {
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 10px;
+        text-align: center;
+        margin-top: 96px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .container {
+        width: 94%;
+        height: 610px;
+        background-color: #ffffff;
+        margin: 50px auto;
+        padding: 5px;
+    }
+    .dice-img {
+        position: relative;
+        top: -2em;
+        left: 7em;
+    }
+    .record {
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 10px;
+        text-align: center;
+        margin-top: 96px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .container {
+        width: 94%;
+        height: 610px;
+        background-color: #ffffff;
+        margin: 50px auto;
+        padding: 5px;
+    }
+    .player {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 14px;
+        text-align: center;
+    }
+    .dice-img {
+        position: relative;
+        top: -2em;
+        left: 6em;
+    }
+    .record{
+        margin-top: 96px;
+    }
+    .record .current {
+        width: 75px;
+        height: 72px;
+   
+    }
+    .current h1 {
+        font-size: 22px;
+    }
+}
+   
